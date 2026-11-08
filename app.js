@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello from my CI/CD app!' });
+  res.json({ message: 'Hello from my Jenkins pipeline!' });
 });
 
 module.exports = app;
